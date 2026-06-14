@@ -36,7 +36,7 @@ export default function Dashboard() {
           </p>
         </div>
         <Button onClick={() => setAiAssistantOpen(true)} style={{ background:'rgba(255,255,255,0.2)', color:'#fff', border:'1px solid rgba(255,255,255,0.3)', fontWeight:600, backdropFilter:'blur(4px)' }}>
-          <Sparkles size={14} /> Ask NutriAI
+          <Sparkles size={14} /> Ask AFyalinkAI
         </Button>
       </div>
 
@@ -83,7 +83,7 @@ export default function Dashboard() {
             </div>
             <div>
               <div style={{ fontFamily:'var(--font-display)', fontWeight:700, fontSize:14, color:'var(--text-primary)' }}>AI Insights</div>
-              <div style={{ fontSize:11, color:'var(--text-muted)' }}>NutriAI recommendations</div>
+              <div style={{ fontSize:11, color:'var(--text-muted)' }}>AFyalinkAI recommendations</div>
             </div>
           </div>
           <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
@@ -103,7 +103,7 @@ export default function Dashboard() {
           <button onClick={() => setAiAssistantOpen(true)} style={{ width:'100%', marginTop:10, padding:'8px', background:'var(--accent-light)', border:'1px solid var(--accent-mid)', borderRadius:8, color:'var(--accent)', fontSize:12.5, fontWeight:600, cursor:'pointer', fontFamily:'var(--font-body)', transition:'var(--transition)' }}
             onMouseEnter={e => e.currentTarget.style.background='var(--accent-mid)'}
             onMouseLeave={e => e.currentTarget.style.background='var(--accent-light)'}
-          >Open NutriAI →</button>
+          >Open AFyalinkAI →</button>
         </Card>
       </div>
 

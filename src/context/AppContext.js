@@ -14,7 +14,7 @@ export function AppProvider({ children }) {
   ]);
   const [aiAssistantOpen, setAiAssistantOpen] = useState(false);
   const [aiMessages, setAiMessages] = useState([
-    { role: 'assistant', content: "Hello! I'm NutriAI, your intelligent clinical assistant. I can help you analyze patient data, suggest dietary interventions, calculate nutritional requirements, draft care plans, and provide evidence-based recommendations. How can I assist you today?" }
+    { role: 'assistant', content: "Hello! I'm AFyalinkAI, your intelligent clinical assistant. I can help you analyze patient data, suggest dietary interventions, calculate nutritional requirements, draft care plans, and provide evidence-based recommendations. How can I assist you today?" }
   ]);
   const [aiLoading, setAiLoading] = useState(false);
 

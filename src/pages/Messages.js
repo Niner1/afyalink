@@ -6,7 +6,7 @@ import { useApp } from '../context/AppContext';
 
 const templates=[
   {id:1,name:'Appointment Reminder',body:'Hello {name}! Reminder for your appointment on {date} at {time}. Reply to confirm or call us to reschedule.'},
-  {id:2,name:'Welcome Message',body:'Hi {name}! Welcome to NutriCare Clinic. Your appointment is confirmed. We look forward to supporting your health journey.'},
+  {id:2,name:'Welcome Message',body:'Hi {name}! Welcome to AFyalink Clinic. Your appointment is confirmed. We look forward to supporting your health journey.'},
   {id:3,name:'Payment Reminder',body:'Dear {name}, you have an outstanding balance of KES {amount}. Please settle at your earliest convenience. Thank you!'},
   {id:4,name:'Follow-up Check-in',body:'Hi {name}, checking in on your progress! How are you doing with your meal plan? Reach out if you need support.'},
   {id:5,name:'Lab Result Ready',body:'Hi {name}, your lab interpretation is ready. Please book a follow-up to discuss your results.'},
@@ -136,7 +136,7 @@ export default function Messages() {
               onBlur={e=>{e.target.style.borderColor='var(--border-default)';e.target.style.boxShadow='none';}}/>
             <div style={{ fontSize:11.5, color:'var(--text-placeholder)', marginTop:4 }}>{composeText.length} characters</div>
           </div>
-          <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>setAiAssistantOpen(true)}>Draft with NutriAI</Button>
+          <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>setAiAssistantOpen(true)}>Draft with AFyalinkAI</Button>
           <div style={{ display:'flex', gap:8, justifyContent:'flex-end' }}>
             <Button variant="secondary" onClick={()=>setCompose(false)}>Cancel</Button>
             <Button variant="primary" icon={Send} onClick={()=>setCompose(false)}>Send</Button>

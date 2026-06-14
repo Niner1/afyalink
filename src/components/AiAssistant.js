@@ -48,7 +48,7 @@ export default function AiAssistant() {
             <Sparkles size={15} color="#fff" />
           </div>
           <div style={{ flex:1 }}>
-            <div style={{ fontFamily:'var(--font-display)', fontWeight:700, fontSize:14, color:'#fff' }}>NutriAI Assistant</div>
+            <div style={{ fontFamily:'var(--font-display)', fontWeight:700, fontSize:14, color:'#fff' }}>AFyalinkAI Assistant</div>
             <div style={{ fontSize:11, color:'rgba(255,255,255,0.75)', display:'flex', alignItems:'center', gap:4 }}>
               <span style={{ width:5, height:5, borderRadius:'50%', background:'#4ADE80', display:'inline-block' }} />
               AI-powered clinical support
@@ -106,7 +106,7 @@ export default function AiAssistant() {
         {/* Input */}
         <div style={{ padding:'12px 14px', borderTop:'1px solid var(--border-light)', display:'flex', gap:8, alignItems:'flex-end', background:'var(--bg-surface)' }}>
           <textarea ref={inputRef} value={input} onChange={e => setInput(e.target.value)} onKeyDown={handleKey}
-            placeholder="Ask NutriAI anything…" rows={1}
+            placeholder="Ask AFyalinkAI anything…" rows={1}
             style={{ flex:1, background:'var(--bg-surface-2)', border:'1px solid var(--border-default)', borderRadius:10, padding:'9px 12px', color:'var(--text-primary)', fontSize:13, fontFamily:'var(--font-body)', resize:'none', outline:'none', lineHeight:1.5, maxHeight:90, overflowY:'auto', transition:'var(--transition)' }}
             onFocus={e => { e.target.style.borderColor='var(--border-focus)'; e.target.style.boxShadow='0 0 0 3px rgba(37,99,235,0.1)'; }}
             onBlur={e => { e.target.style.borderColor='var(--border-default)'; e.target.style.boxShadow='none'; }}

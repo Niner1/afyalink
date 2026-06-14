@@ -80,7 +80,7 @@ export default function Billing() {
         {viewInv&&(
           <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
             <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start' }}>
-              <div><div style={{ fontFamily:'var(--font-display)', fontSize:20, fontWeight:800, color:'var(--accent)' }}>NutriCare</div><div style={{ fontSize:12, color:'var(--text-muted)' }}>Clinical Nutrition · Nairobi, Kenya</div></div>
+              <div><div style={{ fontFamily:'var(--font-display)', fontSize:20, fontWeight:800, color:'var(--accent)' }}>AFyalink</div><div style={{ fontSize:12, color:'var(--text-muted)' }}>Clinical Nutrition · Nairobi, Kenya</div></div>
               <div style={{ textAlign:'right' }}><div style={{ fontSize:16, fontWeight:700 }}>{viewInv.id}</div><div style={{ fontSize:12, color:'var(--text-muted)' }}>{viewInv.date}</div><Badge variant={statusV[viewInv.status]} style={{marginTop:6}}>{viewInv.status}</Badge></div>
             </div>
             <hr style={{ border:'none', borderTop:'1px solid var(--border-light)' }}/>

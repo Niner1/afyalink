@@ -36,7 +36,7 @@ export default function Header({ onSwitchToPortal }) {
 
       {/* Breadcrumb */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 7, flexShrink: 0 }}>
-        <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>NutriCare</span>
+        <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>AFyalink</span>
         <span style={{ fontSize: 12, color: 'var(--border-default)' }}>/</span>
         <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 15, fontWeight: 600, color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>
           {pageLabels[activePage]}

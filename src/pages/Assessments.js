@@ -55,7 +55,7 @@ export default function Assessments() {
               </div>
               <div style={{ display:'flex', gap:8 }}>
                 <Badge variant={riskV[sel.riskClassification]||'default'}>{sel.riskClassification}</Badge>
-                <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>setAiAssistantOpen(true)}>NutriAI</Button>
+                <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>setAiAssistantOpen(true)}>AFyalinkAI</Button>
               </div>
             </div>
             <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(100px,1fr))', gap:10 }}>

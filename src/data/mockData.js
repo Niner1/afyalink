@@ -1,5 +1,5 @@
 // ============================================================
-// MOCK DATA — NutriCare IMS
+// MOCK DATA — AFyalink IMS
 // ============================================================
 
 export const mockClients = [
@@ -465,7 +465,7 @@ export const mockMessages = [
     clientName: "Samuel Kimura",
     channel: "WhatsApp",
     direction: "Outbound",
-    message: "Hi Samuel! Welcome to NutriCare Clinic. Your appointment has been confirmed for May 22 at 2:00 PM. We look forward to seeing you!",
+    message: "Hi Samuel! Welcome to AFyalink Clinic. Your appointment has been confirmed for May 22 at 2:00 PM. We look forward to seeing you!",
     timestamp: "2025-05-16 09:15",
     status: "Delivered",
     type: "Welcome",

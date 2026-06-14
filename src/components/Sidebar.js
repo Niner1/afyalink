@@ -60,7 +60,7 @@ export default function Sidebar() {
             <Stethoscope size={17} color="#fff" />
           </div>
           <div>
-            <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#fff', lineHeight: 1.2 }}>NutriCare</div>
+            <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#fff', lineHeight: 1.2 }}>AFyalink</div>
             <div style={{ fontSize: 10, color: 'var(--sidebar-text)', letterSpacing: '0.5px' }}>Clinical IMS</div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function Sidebar() {
             onMouseEnter={e => e.currentTarget.style.background = 'rgba(37,99,235,0.38)'}
             onMouseLeave={e => e.currentTarget.style.background = 'rgba(37,99,235,0.22)'}>
             <Sparkles size={14} />
-            <span>NutriAI Assistant</span>
+            <span>AFyalinkAI Assistant</span>
             <span style={{ marginLeft: 'auto', fontSize: 9, background: 'var(--accent)', color: '#fff', padding: '1px 6px', borderRadius: 10, fontWeight: 700 }}>BETA</span>
           </button>
 

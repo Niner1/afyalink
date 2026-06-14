@@ -56,7 +56,7 @@ function LandingPage({ onAdmin, onPortal }) {
         <div style={{ width: 64, height: 64, borderRadius: 18, background: '#2563EB', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 20px', boxShadow: '0 8px 24px rgba(37,99,235,0.3)' }}>
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
         </div>
-        <h1 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontSize: 30, fontWeight: 800, color: '#111827', marginBottom: 8 }}>NutriCare IMS</h1>
+        <h1 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontSize: 30, fontWeight: 800, color: '#111827', marginBottom: 8 }}>AFyalink IMS</h1>
         <p style={{ fontSize: 15, color: '#6B7280', marginBottom: 36 }}>Clinical Nutrition & Information Management System</p>
         <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
           <button onClick={onAdmin} style={{ padding: '14px 32px', background: '#2563EB', color: '#fff', border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 600, cursor: 'pointer', fontFamily: "'Inter', sans-serif", boxShadow: '0 4px 12px rgba(37,99,235,0.3)' }}>

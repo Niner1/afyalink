@@ -58,7 +58,7 @@ export default function CarePlans() {
               </div>
               <div style={{ display:'flex', gap:8 }}>
                 <Button variant="secondary" size="sm" icon={Edit}>Edit</Button>
-                <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>setAiAssistantOpen(true)}>NutriAI</Button>
+                <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>setAiAssistantOpen(true)}>AFyalinkAI</Button>
               </div>
             </div>
             <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:12, marginBottom:14 }}>

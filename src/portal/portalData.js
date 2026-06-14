@@ -14,10 +14,10 @@ export const currentClient = {
 };
 
 export const portalAppointments = [
-  { id:'APT-001', date:'2025-05-22', time:'09:00', type:'Follow-up', mode:'In-Person', status:'Confirmed', dietitian:'Dr. Wanjiku Kariuki', notes:'Review blood sugar trends and adjust plan', location:'NutriCare Clinic, Westlands' },
+  { id:'APT-001', date:'2025-05-22', time:'09:00', type:'Follow-up', mode:'In-Person', status:'Confirmed', dietitian:'Dr. Wanjiku Kariuki', notes:'Review blood sugar trends and adjust plan', location:'AFyalink Clinic, Westlands' },
   { id:'APT-002', date:'2025-06-05', time:'10:00', type:'Follow-up', mode:'Telehealth', status:'Scheduled', dietitian:'Dr. Wanjiku Kariuki', notes:'', location:'Online (Zoom link sent via email)' },
-  { id:'APT-003', date:'2025-04-28', time:'09:00', type:'Follow-up', mode:'In-Person', status:'Completed', dietitian:'Dr. Wanjiku Kariuki', notes:'Good progress. Weight down 1kg.', location:'NutriCare Clinic, Westlands' },
-  { id:'APT-004', date:'2025-03-15', time:'09:00', type:'Follow-up', mode:'In-Person', status:'Completed', dietitian:'Dr. Wanjiku Kariuki', notes:'Meal plan adjusted. Encouraged vegetable intake.', location:'NutriCare Clinic, Westlands' },
+  { id:'APT-003', date:'2025-04-28', time:'09:00', type:'Follow-up', mode:'In-Person', status:'Completed', dietitian:'Dr. Wanjiku Kariuki', notes:'Good progress. Weight down 1kg.', location:'AFyalink Clinic, Westlands' },
+  { id:'APT-004', date:'2025-03-15', time:'09:00', type:'Follow-up', mode:'In-Person', status:'Completed', dietitian:'Dr. Wanjiku Kariuki', notes:'Meal plan adjusted. Encouraged vegetable intake.', location:'AFyalink Clinic, Westlands' },
 ];
 
 export const portalCarePlan = {
@@ -66,7 +66,7 @@ export const portalMessages = [
   { id:1, from:'Dr. Wanjiku Kariuki', fromRole:'dietitian', message:"Hi Amara! Great to see your weight is trending down. Keep up the good work with your meal plan. Remember to focus on breakfast — it sets your blood sugar for the whole day.", time:'2025-05-16 14:30', read:true },
   { id:2, from:'Amara Osei', fromRole:'client', message:"Thank you doctor! I have been trying to eat breakfast every day. It's getting easier. I still struggle with evening snacking though.", time:'2025-05-16 15:02', read:true },
   { id:3, from:'Dr. Wanjiku Kariuki', fromRole:'dietitian', message:"That's completely normal! For evening snacking, try keeping cut carrots or cucumber in the fridge. Also, drinking water first sometimes helps curb the craving. See you on the 22nd!", time:'2025-05-16 15:20', read:false },
-  { id:4, from:'NutriCare System', fromRole:'system', message:"Appointment reminder: You have an appointment on May 22 at 09:00 AM. Please fast for 8 hours before your blood sugar test.", time:'2025-05-17 08:00', read:false },
+  { id:4, from:'AFyalink System', fromRole:'system', message:"Appointment reminder: You have an appointment on May 22 at 09:00 AM. Please fast for 8 hours before your blood sugar test.", time:'2025-05-17 08:00', read:false },
 ];
 
 export const healthTips = [

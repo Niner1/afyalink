@@ -26,7 +26,7 @@ export default function Settings(){
       <div style={{display:'flex',flexDirection:'column',gap:16}}>
         <div><h3 style={{fontFamily:'var(--font-display)',fontWeight:700,fontSize:16,marginBottom:3}}>Clinic Profile</h3><p style={{fontSize:13,color:'var(--text-muted)'}}>Manage your clinic information and branding</p></div>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:13}}>
-          <Input label="Clinic Name" defaultValue="NutriCare Clinic"/>
+          <Input label="Clinic Name" defaultValue="AFyalink Clinic"/>
           <Input label="Registration No." defaultValue="MED-2022-4571"/>
           <Input label="Primary Dietitian" defaultValue="Dr. Wanjiku Kariuki"/>
           <Input label="Contact Phone" defaultValue="+254 700 000 000"/>

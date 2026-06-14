@@ -575,7 +575,7 @@ export default function Portal({ onBack }) {
       <aside style={{ position:'fixed', top:0, left:0, bottom:0, width:SIDEBAR_W, background:c.sidebar, display:'flex', flexDirection:'column', zIndex:100, transform:sidebarOpen?'translateX(0)':'translateX(-100%)', transition:'transform 0.25s ease', boxShadow:'2px 0 12px rgba(0,0,0,0.12)' }}>
         <div style={{ height:60, display:'flex', alignItems:'center', padding:'0 18px', borderBottom:'1px solid rgba(255,255,255,0.07)', gap:10, flexShrink:0 }}>
           <div style={{ width:30, height:30, borderRadius:8, background:c.accent, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}><Stethoscope size={16} color="#fff"/></div>
-          <div><div style={{ fontFamily:"'Plus Jakarta Sans',sans-serif", fontWeight:700, fontSize:14, color:'#fff', lineHeight:1.2 }}>NutriCare</div><div style={{ fontSize:10, color:'rgba(148,163,184,0.8)', letterSpacing:'0.3px' }}>Client Portal</div></div>
+          <div><div style={{ fontFamily:"'Plus Jakarta Sans',sans-serif", fontWeight:700, fontSize:14, color:'#fff', lineHeight:1.2 }}>AFyalink</div><div style={{ fontSize:10, color:'rgba(148,163,184,0.8)', letterSpacing:'0.3px' }}>Client Portal</div></div>
         </div>
         <nav style={{ flex:1, overflowY:'auto', padding:'14px 10px' }}>
           {navItems.map(item=>{

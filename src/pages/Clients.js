@@ -125,7 +125,7 @@ export default function Clients() {
               <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
                 <Button variant="primary" size="sm" icon={Plus}>Book Appointment</Button>
                 <Button variant="secondary" size="sm">View Assessments</Button>
-                <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>{setDetail(null);setAiAssistantOpen(true);}}>NutriAI</Button>
+                <Button variant="ghost" size="sm" icon={Sparkles} onClick={()=>{setDetail(null);setAiAssistantOpen(true);}}>AFyalinkAI</Button>
               </div>
             </div>
           </div>
